@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta  viewport="device-width">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="container">
+   <div class="nav">
+     <ul>
+       <li style="margin-bottom:40px;"> <a href="#">
+      <span class="icon" >  S.R </span>
+       Sharkz Tech</a></li>
+       <li> <a href="#">
+       <span class="icon" >  S.R </span>
+       Dashboard</a></li>
+    	<li> <a href="#">
+      <span class="icon" >  S.R </span>
+      Customers</a></li>
+       <li> <a href="#">
+       <span class="icon" >  S.R </span>
+       Messages</a></li>
+       <li> <a href="#">
+      <span class="icon" >  S.R </span>
+       Help</a></li>
+       <li> <a href="#">
+       <span class="icon" >  S.R </span>
+       Settings</a></li>
+       <li> <a href="#">
+       <span class="icon" >  S.R </span>
+       Sing out</a></li>
+     </ul>
+   </div>
+
+
+
+     <div class="main">
+        <div class="topbar">
+
+         <div class="toggle">=         
+         </div>
+        
+
+         <div class="search">
+           <label>
+             <input type="text" placeholder="search here.." name="q">
+
+           </label>
+         </div>
+
+         <div class="user">
+           <img src="3.jpg">
+         </div>
+
+       </div>
+
+       <div class="ct">
+         <div class="c">
+          <span>RS</span>
+          1,500
+          <br>
+          <span>Daily Views</span>
+         </div>
+         <div class="c">80
+          <br>
+          <span>Sales</span>
+         </div>
+         <div class="c">66
+          <br>
+         <span>comments</span>
+         </div>  
+         <div class="c">$2,666
+          <br>
+         <span>Total sales</span>
+         </div>         
+
+       </div>
+    
+
+       <div class="details">
+         <div class="recentorder">
+           <div class="cardheader">
+             <h2>Recent Oder</h2>
+             <a href="#">View all</a>
+           </div>
+           <table>
+             <thead>
+               <tr>
+                 <td>Name</td>
+                 <td>Price</td>
+                 <td>Payment</td>
+                 <td>Status</td>
+               </tr>
+             </thead>
+             <tbody>
+              <tr>
+                <td>Lenovo</td>
+                <td>$200</td>
+                <td>paid</td>
+                <td>
+                  <span class="status del">Delivered</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Lenovo</td>
+                <td>$200</td>
+                <td>paid</td>
+                <td>
+                  <span class="status del">Delivered</span>
+                </td>
+              </tr>  
+
+              <tr>
+                <td>Lenovo</td>
+                <td>$200</td>
+                <td>paid</td>
+                <td>
+                  <span class="status pro">In Progress</span>
+                </td>
+              </tr>  
+
+              <tr>
+                <td>Lenovo</td>
+                <td>$200</td>
+                <td>paid</td>
+                <td>
+                  <span class="status del">Delivered</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Lenovo</td>
+                <td>$200</td>
+                <td>paid</td>
+                <td>
+                  <span class="status del">Delivered</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Lenovo</td>
+                <td>$200</td>
+                <td>Due</td>
+                <td>
+                  <span class="status ped">Pending</span>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Lenovo</td>
+                <td>$200</td>
+                <td>paid</td>
+                <td>
+                  <span class="status ret">Returned</span>
+                </td>
+              </tr>
+
+
+           </tbody>
+           </table>
+         </div>         
+       </div>
+
+
+
+     </div>
+
+</div>
+
+<script type="text/javascript" >
+  let toggle=document.querySelector(".toggle");
+  let nav=document.querySelector(".nav");
+  let main=document.querySelector(".main");
+
+  toggle.addEventListener('click',function () {
+     nav.classList.toggle("active")
+     main.classList.toggle("active")
+
+  })
+
+
+</script>
+
+<body>
+</html>

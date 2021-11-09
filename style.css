@@ -1,0 +1,253 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{ 
+   min-height:100vh;
+   overflow-x:hidden;
+
+}
+.container{
+  position:relative;
+  width:100%; 
+
+}
+
+.nav{ 
+  position:fixed;
+  background:#287b;
+  width:300px;
+  height:100%;
+  border-left:10px solid #287b;
+  transition:0.5s;
+  overflow:hidden;
+  
+}
+.nav.active{
+  width: 65px;
+}
+}
+.nav ul{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+}
+.nav ul li{
+  position:relative;
+  width:200%;
+  list-style:none;
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+  
+}
+.nav ul li:hover{
+  background:#fff;
+}
+.nav ul li a{
+  position:relative;
+  display:block;
+  width:100%;
+  display:flex;
+  text-decoration:none;
+  color:#fff;
+  
+  padding:0 10px;
+  height:60px;
+  line-height:60px;
+  text-align:start;
+  white-space:nowrap;
+  
+  font-size:1.2rem;
+  font-weight:400;
+}
+.nav ul li:hover a{
+   color:#287b;
+}
+.nav ul li a .icon{
+  padding-right: 20px;
+}
+
+
+
+
+/*main*/
+
+
+.main{
+  position: absolute;
+  width:calc(100% - 300px );
+  left:300px;
+  min-height: 100vh;
+  transition: 0.5s;
+  background: #ccc
+}
+.main.active{
+  width: calc(100% - 65px);
+  left: 65px;
+}
+.topbar{
+  width: 100%;
+  height:60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  background: #fff;
+
+
+}
+.toggle{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.search{
+  position: relative;
+  width: 400px;
+  margin:20px;
+
+}
+.search label{
+  position: relative;
+  width: 100%;
+
+}
+.search label input{
+  width: 250px;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  outline: none;
+  border:1px solid #acac;
+}
+.user{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+.user img{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ct{
+  width:100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  overflow-x: hidden;
+}
+.c{
+  margin: 10px;
+  background: #fff;
+  width: 150px;
+  height:60px;
+  border-radius: 10px;
+  color: #287b;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.c span{
+font-size: .6rem;
+
+}
+
+
+
+
+
+.details{
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+
+}
+.cardheader{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.cardheader h2{
+  font-weight: 600;
+  color: #287bff;
+}
+.cardheader a{
+  text-decoration: none;
+  background: #267bff;
+  color: #fff;
+  padding:.4rem;
+  border-radius: 1rem;
+
+}
+.details .recentorder{
+  position: relative;
+  background: #fff;
+  display: grid;
+  min-height:500px;
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0,0,0,0,.08);
+
+}
+
+.details .recentorder thead{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.details table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.details table tr{
+  border-bottom: 1px solid #acacac;
+}
+.details table tbody tr:hover{
+  background: #287b;
+  color: #fff;
+}
+.details table tbody tr td:hover{
+  padding: .2rem;
+}
+
+ .status.ret{
+  background: red;
+  padding: .2rem;
+
+}
+ .status.del{
+  background: green;
+    padding: .2rem;
+
+
+}
+ .status.pro{
+background: blue;
+  padding: .2rem;
+
+}
+ .status.ped{
+  background: yellow;
+  padding: .2rem;
+
+}
+
+
+
+
