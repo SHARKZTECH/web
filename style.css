@@ -48,7 +48,7 @@ body{
 .nav.active{
   width: 70px;
 }
-}
+
 .nav ul{
   position:absolute;
   top:0;
@@ -189,6 +189,7 @@ body{
   font-size: 1rem;
   font-weight: 600;
   transition: transform 0.3s;
+  animation: 2s linear 2s infinite alternate anima;
 }
 .c:hover{
   transform: scale(1.2);
@@ -202,6 +203,15 @@ font-size: .6rem;
 
 }
 
+@keyframes anima {
+  from{
+    transform: scale(.7);
+  }
+to{
+  transform: scale(1.2);
+}
+}
+
 
 /*Details*/
 
@@ -210,9 +220,7 @@ font-size: .6rem;
   padding: 20px;
   margin: 20px;
   background: #fff;
-  box-shadow: 0 7px 25px rgba(0,0,0,0,.08);
  
-
 }
 
 .cardheader{
@@ -309,9 +317,6 @@ background: blue;
   font-size: 1.2rem;
   color: #fff;
 }
-#more{
-}
-
 
 
 
@@ -418,8 +423,7 @@ background: blue;
   background-color: #fff;
   width: 450px;
   border-radius: 16px;
-  box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
-               0 32px 64px -48px rgba(0,0,0,0.5);
+
 
 }
 
@@ -445,7 +449,7 @@ background: blue;
   border-radius: 5px;
   margin-bottom: 10px;
   border:1px solid #f5c6cb;
-  display:;
+
 
 }
 .hidde{
