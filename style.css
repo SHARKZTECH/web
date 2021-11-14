@@ -35,6 +35,7 @@ body{
 
 }
 
+/* SIDE BAR */
 .nav{ 
   position:fixed;
   background:#287;
@@ -493,9 +494,10 @@ background: blue;
 .form form .fields i{
   position: absolute;
   right: 15px;
-  color: #ccc;
-  top: 70%;
-  transform: translateY(-50%);
-    cursor: pointer;
+  top: 45%;
+  cursor: pointer;
 }
+.pas{
+  color: #ccc;
 
+}
