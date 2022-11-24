@@ -224,6 +224,14 @@ to{
  
 }
 
+.details1{
+  position: relative;
+  padding: 20px;
+  margin: 20px;
+  background: #fff;
+ 
+}
+
 .cardheader{
   display: flex;
   align-items: flex-start;
@@ -256,8 +264,6 @@ to{
   padding: 20px;
 
 }
-
-
 .details .recentorder thead{
   font-size: 1.2rem;
   font-weight: 600;
@@ -267,7 +273,6 @@ to{
   border-collapse: collapse;
   margin-top: 10px;
 }
-
 .details table tr{
   border-bottom: 1px solid #ccc;
   transition: ease 0.4s;
@@ -276,6 +281,30 @@ to{
   background: #287;
   color: darkorange;
   font-weight: 400;
+}
+
+
+
+
+.details1 .recentorder{
+  position: relative;
+  min-height:500px;
+  display: grid;
+  padding: 20px;
+
+}
+.details1 .recentorder thead{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.details1 table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.details1 table tr{
+  border-bottom: 1px solid #ccc;
+  transition: ease 0.4s;
 }
 
 
